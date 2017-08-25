@@ -1,4 +1,4 @@
-# arduino-primo-tutorials
+# Arduino Primo Tutorials
 
 Here some tutorial to explain and show how to use make use of the new features on the Arduino Primo and Arduino Primo Core, 
 such as Wifi, BLE, NFC, InfraRed and various sensors. Hope you will keep using Arduino to create amazing stuff, save the 
