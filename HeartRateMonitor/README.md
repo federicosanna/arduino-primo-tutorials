@@ -26,4 +26,4 @@ PWR pin to 3.3V;
 GND to GND;  
 Signal to A0.
 
-![PrimoBoardWithPulseSensor](https://user-images.githubusercontent.com/30337324/29718349-bc7f797a-89b2-11e7-8a65-8e6aebbb0b54.jpg)
+![primowithsensor](https://user-images.githubusercontent.com/30337324/29719464-6ac3e914-89b6-11e7-9654-ba35e0fbd4f4.png)
