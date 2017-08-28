@@ -30,7 +30,7 @@ Signal to A0.
 
 ### Code
 
-Refer to the file : **HeartRateMonitor.ino** in this folder
+Refer to the file : **HeartRateBLE.ino** in this folder
 
 ### Warning
 
