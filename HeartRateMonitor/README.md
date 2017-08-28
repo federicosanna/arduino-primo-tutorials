@@ -27,3 +27,19 @@ GND to GND;
 Signal to A0.
 
 ![primowithsensor](https://user-images.githubusercontent.com/30337324/29719464-6ac3e914-89b6-11e7-9654-ba35e0fbd4f4.png)
+
+### Code
+
+Refer to the file : **HeartRateMonitor.ino** in this folder
+
+### Warning
+
+Use the *Arduino IDE 1.8.x* and check that you have already downloaded the corresponding platform (*Arduino NRF52 Boards*) 
+from the **Board Manager**.
+
+### Output
+
+Install and launch the [nRF Toolbox](https://www.nordicsemi.com/eng/Products/Nordic-mobile-Apps/nRF-Toolbox-App) app.
+
+
+
