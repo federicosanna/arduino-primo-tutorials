@@ -19,6 +19,16 @@ You can find here a summary of the projects I developed. More information can be
     The message can then be read by any device with NFC enabled by bringing it near to the board.
     Shows how to use NFC features and how to combine them with Bluetooth to make it more dynamic and versatile.
     
+* Media Player Gesture Control    
+     Arduino Primo Core can be used to play music on your smartphone or laptop using gestures. 
+    It uses the BLE library to send information to the device and allows you to control the music remotely.
+
+* Digital Pinboard    
+     A short message can be stored on an Arduino Primo board using a smartphone through the Nordic nRF Connect App, or 
+    with other devices.
+    The message can then be read by any device with NFC enabled by bringing it near to the board.
+    Shows how to use NFC features and how to combine them with Bluetooth to make it more dynamic and versatile.
+    
 * Media Player Gesture Control     
     Arduino Primo Core can be used to play music on your smartphone or laptop using gestures. 
     It uses the BLE library to send information to the device and allows you to control the music remotely.
