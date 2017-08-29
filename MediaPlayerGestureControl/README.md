@@ -37,3 +37,5 @@ Completely rotate the board downward by rotating it to the right to play orpause
 Tilt it to the right to play the next track, to the left to playthe previous track. 
 To increase/decrease the volume, tilt it forward/backward.
 
+![ezgif com-video-to-gif 1](https://user-images.githubusercontent.com/30337324/29812606-71245688-8ca7-11e7-97c5-7cf64793d22e.gif)
+
