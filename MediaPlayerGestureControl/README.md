@@ -14,14 +14,15 @@ to send information to the device and allows you to control the music remotely.
 - Coin battery CR2032
 - Smartphone with Bluetooth enabled
 
-### Software
+### Circuit
 
-- [nRF Toolbox](https://www.nordicsemi.com/eng/Products/Nordic-mobile-Apps/nRF-Toolbox-App)
-- [Arduino IDE](http://www.arduino.org/downloads)
+It doesn’t need any circuit but it need an [Arduino Primo](http://www.arduino.org/products/boards/arduino-primo) 
+or an external programmer only  for uploading the sketch. 
+For more information, about how to upload a sketch, visit the [Getting Started](http://www.arduino.org/learning/getting-started/getting-started-with-arduino-primo-core).
 
 ### Code
 
-Refer to the file : **DigitalPinBoard.ino** in this folder
+Refer to the file : **MediaPlayerGestureControl.ino** in this folder
 
 ### Warning
 
@@ -30,9 +31,9 @@ from the **Board Manager**.
 
 ### Output
 
-After connecting your smartphone to the board, it will be possible to update one of its caracteristics via BLE.
-The BLE transmission via the Nordic App will allow to send only 20 characters at time, so the messages you can send
-will be pretty short, but if you are interested you can easily implement the code to overcome this problem.
-Once you upload the code you can bring your phone (or another NFC reader) close to the NFC antenna on the board, and the message you 
-uploaded will be visible on the display.
+After connecting your smartphone (or another device to play music) to the board, you will be able to play media with 
+your board.
+Completely rotate the board downward by rotating it to the right to play orpause music. 
+Tilt it to the right to play the next track, to the left to playthe previous track. 
+To increase/decrease the volume, tilt it forward/backward.
 
