@@ -29,5 +29,13 @@ You can find here a summary of the projects I developed. More information can be
     Tilt the board on the direction where you want to move the pointer, tap on it once to press the mouse, 
     and tap again to release.
     
-*   Weather Monitor
+* Weather Monitor    
+    This example makes use of two boards, an Arduino Primo and an Arduino Primo Core.
+    The two boards communicate via Bluetooth, Primo is the Peripheral and Primo Core is Central.
+    When Primo Core sends a signal to Primo, it searches on internet the current temperature on a 
+    given city requesting it from the New York Time server.
+    At the end of the reserch the temperature in Celsius is sent back to Primo Core, from which the temperature 
+    from the server and the environment temperature from the sensor, can be read via NFC with a smartphone
+    or another NFC reader.
     
+
