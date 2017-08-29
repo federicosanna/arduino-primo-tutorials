@@ -7,7 +7,7 @@ Level: *Advanced*
 This example makes use of two boards, an Arduino Primo and an Arduino Primo Core.   
 The two boards communicate via Bluetooth, Primo is the Peripheral and Primo Core is Central.  
 When Primo Core sends a signal (a simple byte) to Primo, it searches on internet the current temperature
-on a given city (which in this example is Cagliari, Italy) requesting it to the New York Time server.  
+on a given city (which in this example is Cagliari, Italy) requesting it from the New York Time server.  
 At the end of the reserch the temperature in Celsius is sent back to Primo Core, from which the temperature 
 from the server and the environment temperature from the sensor, can be read via NFC with a smartphone or another 
 NFC reader.  
