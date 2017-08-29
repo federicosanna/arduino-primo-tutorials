@@ -9,7 +9,7 @@ The two boards communicate via Bluetooth, Primo is the Peripheral and Primo Core
 When Primo Core sends a signal (a simple byte) to Primo, it searches on internet the current temperature
 on a given city (which in this example is Cagliari, Italy) requesting it to the New York Time server.  
 At the end of the reserch the temperature in Celsius is sent back to Primo Core, from which the temperature 
-from the server and the ambiental temperature from the sensor, can be read via NFC with a smartphone or another 
+from the server and the environment temperature from the sensor, can be read via NFC with a smartphone or another 
 NFC reader.  
 Demonstrate the use of BLE, NFC, WiFi, and how to make a Primo and a Primo Core communicate between each other,
 making use of the features present on both (BLE and NFC), the ones present on the Primo only (Wifi), and the ones present only on the Primo Core (temperature sensor).
@@ -23,12 +23,13 @@ making use of the features present on both (BLE and NFC), the ones present on th
 
 ### Software
 
-- [nRF Toolbox](https://www.nordicsemi.com/eng/Products/Nordic-mobile-Apps/nRF-Toolbox-App)
 - [Arduino IDE](http://www.arduino.org/downloads)
 
 ### Code
 
-Refer to the file : **DigitalPinBoard.ino** in this folder
+Refer to the files in this folder. 
+The file **TemperatureComparatorCentral.ino** should be uploaded on the Primo Core. 
+The file **GetTemperatureOnlinePeripheral.ino** should be uploaded on the Primo.
 
 ### Warning
 
@@ -37,8 +38,7 @@ from the **Board Manager**.
 
 ### Output
 
-After connecting your smartphone to the board, it will be possible to update one of its caracteristics via BLE.
-The BLE transmission via the Nordic App will allow to send only 20 characters at time, so the messages you can send
-will be pretty short, but if you are interested you can easily implement the code to overcome this problem.
-Once you upload the code you can bring your phone (or another NFC reader) close to the NFC antenna on the board, and the message you 
-uploaded will be visible on the display.
+Passing the phone on the NFC antenna of the Primo Core you will receive informarmation about the current temperature in 
+the city you set and information about the environment temperature.
+If you would like to chance city, you can do it from the code **GetTemperatureOnlinePeripheral.ino**.
+
