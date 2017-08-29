@@ -19,9 +19,15 @@ You can find here a summary of the projects I developed. More information can be
     The message can then be read by any device with NFC enabled by bringing it near to the board.
     Shows how to use NFC features and how to combine them with Bluetooth to make it more dynamic and versatile.
     
-*   Media Player Gesture Control
+* Media Player Gesture Control
+    Arduino Primo Core can be used to play music on your smartphone or laptop using gestures. 
+    It uses the BLE library to send information to the device and allows you to control the music remotely.
 
-*   Mouse Control Smartphone
+* Mouse Control Smartphone
+    Arduino Primo Core can be used as a mouse for your smartphone thanks to the System Control BLE library.
+    The example explains how to move the pointer on the screen using the accelerometers of the Arduino Primo Core. 
+    Tilt the board on the direction where you want to move the pointer, tap on it once to press the mouse, 
+    and tap again to release.
 
 *   Weather Monitor
     
